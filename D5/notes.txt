@@ -1,0 +1,14 @@
+Intro to Web Development with Python 
+
+Python Decorators 
+    Function decorator i.e @apps.route(/pets)
+
+    Jinja is like the express-react-views
+
+    Jinja is built in to flask 
+
+    https://github.com/CodyNicholson/SD06-Backend-API-Activities/blob/main/D10/01-Rest-Rant_DONE/views/places/index.jsx#L5
+
+    pet.py is like the controllers
+
+    

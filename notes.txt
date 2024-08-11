@@ -1,1 +1,13 @@
 https://github.com/pytorch/examples/blob/main/mnist/main.py
+
+http://docs.python.org/library/functions.html#slice
+
+	https://docs.python.org/release/2.3.5/whatsnew/section-slices.html
+
+	compile exception before the code runs 
+
+	runtime error is while it is running 
+
+	https://github.com/CodyNicholson/SD12-Python_Activities/tree/main/D4/3_Analyze-the-Best-Golf-Day
+
+	

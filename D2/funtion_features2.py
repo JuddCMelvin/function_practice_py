@@ -79,3 +79,67 @@ def arb_longest_string(*args):
   for a in args:
     if len(a) > long:
       long = len(a)
+
+def arb_longest_string(*strings):
+    longest_str = ""
+    for string in strings:
+        if len(string) > len(longest_str):
+            longest_str = string
+    return longest_str
+
+print(arb_longest_string("a","uyqweruiyqwreiuyrweuiyirwueyqiouyrweq","ccc","zzzzzzzzzzz","wwww"))
+
+# recursion 
+function recurive_example(num) {
+    console.log(num)
+    if (num < 100) {
+        recurive_example(num+1)
+    } else {
+        return num;
+    }
+}
+
+def fibonacci(n):
+    if n<=1:
+        return n
+    else:
+        return(fibonacci(n-1)+fibonacci(n-2))
+
+n=10
+for i in range(n):
+    print(fibonacci(i))
+
+
+    def natural_numbers(lowerNum, higherNum):
+    if lowerNum > higherNum:
+        return
+    else:
+        print(lowerNum)
+        natural_numbers(lowerNum + 1, higherNum)
+
+n=10
+natural_numbers(1,n)
+
+natural_numbers(87,111)
+
+def count_down(n):
+
+    # Base case
+    if n==0:
+        return
+    
+    # Recursive case
+    else:
+        print(n)
+        count_down(n-1)
+
+n=8
+count_down(n)
+
+>>> word = "dictionary"
+>>> word[-1]
+'y'
+>>> word[4:-2] 
+'iona'
+>>> word[2:-2] 
+'ctiona'
